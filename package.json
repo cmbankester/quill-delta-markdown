@@ -4,6 +4,7 @@
   "description": "To and from Markdown and Quill delta",
   "main": "index.js",
   "scripts": {
+    "build": "webpack",
     "demo": "babel-node tools/demoServer.js",
     "test": "mocha tools/testSetup.js \"tests/**/*.spec.js\" --reporter progress",
     "test:watch": "mocha tools/testSetup.js \"tests/**/*.spec.js\" --reporter progress --watch"
@@ -37,6 +38,7 @@
     "json-loader": "^0.5.4",
     "mocha": "3.0.2",
     "postcss-loader": "^1.0.0",
+    "quill": "^1.1.7",
     "style-loader": "^0.13.1",
     "webpack": "^1.13.2",
     "webpack-dev-middleware": "^1.8.4",
